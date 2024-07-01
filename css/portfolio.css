@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  color: #24292E;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin: 120px 230px;
+  align-items: center;
+
+}
+#header img{
+  width: 120px;
+}
+#header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+#header nav ul li {
+  list-style: none;
+  margin-left: 32px;
+  font-size: 0.9rem;
+}
+#header nav ul li a {
+  margin-left: 2px;
+}
