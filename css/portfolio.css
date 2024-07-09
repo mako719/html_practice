@@ -6,12 +6,16 @@ html {
 body {
   color: #24292E;
 }
+img {
+  max-width: 100%;
+}
 
 #header {
   display: flex;
   justify-content: space-between;
   margin: 120px 230px;
   align-items: center;
+  max-width: 960px;
 
 }
 #header img{
@@ -20,7 +24,6 @@ body {
 #header nav ul {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-left: 0px;
 }
 #header nav ul li {
@@ -30,4 +33,42 @@ body {
 }
 #header nav ul li a {
   margin-left: 2px;
+  text-decoration: none;
+  color: #24292e;
+}
+#header nav ul li a img {
+  width: 20px;
+}
+#mainvisual picture img {
+  height: 420px;
+  object-fit: cover;
+  margin-bottom: 80px;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+}
+.sec-title {
+  text-align: center;
+  margin-bottom: 65px;
+}
+li {
+  list-style: none;
+}
+#about ul li:first-child {
+  margin-bottom: 30px;
+}
+#about ul {
+  margin-bottom: 30px;
+}
+#works ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#works ul li {
+  width: 31%;
+  margin: auto;
+}
+#works ul li:nth-of-type(n+4) {
+  margin-top:20px;
 }
