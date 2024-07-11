@@ -70,5 +70,82 @@ li {
   margin: auto;
 }
 #works ul li:nth-of-type(n+4) {
-  margin-top:20px;
+  margin-top: 20px;
+}
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#news dl dt:first-of-type {
+  border-top: solid #c8c8c8;
+  padding: 15px;
+}
+#news dl dd:first-of-type {
+  border-top: solid #c8c8c8;
+  padding: 15px;
+}
+#news dl dt {
+  border-bottom: solid #c8c8c8;
+  padding: 15px;
+  width: 20%;
+}
+#news dl dd {
+  border-bottom: solid #c8c8c8;
+  padding: 15px;
+  width: 80%;
+}
+#contact form dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#contact dl dt {
+  width: 20%;
+}
+#contact dl dd {
+  width: 80%;
+  border: solid #c8c8c8;
+  padding: 10px;
+  margin-bottom: 2%;
+}
+#contact dl dd:last-of-type {
+  height: 120px;
+}
+#contact dl dd input {
+  width: 100%;
+  height: 100%;
+}
+.button {
+  display: block;
+  margin: auto;
+  padding: 15px;
+  border: none;
+  background: black;
+  width: 20%;
+  text-align: center;
+}
+.button input {
+  color: #FFF;
+  width: 100%;
+  height: 100%;
+  font-size: 0.9rem;
+}
+.button:active{
+  background: #FFF;
+  border: solid 0.5px black;
+}
+.button input:active{
+  color: black;
+}
+
+#footer {
+  background: black;
+  text-align: center;
+  padding: 10px;
+}
+#footer p {
+  color: #FFF;
+  font-size: 0.5rem;
 }
